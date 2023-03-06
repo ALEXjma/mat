@@ -154,3 +154,29 @@ article a:visited {
     background-position: -500px 0;
   }
 }
+
+.center-horizontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 75%;
+  padding: 2em;
+}
+
+.image-right {
+  float: right;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+p {
+  font-size: 1.2em;
+  text-align: justify;
+}
